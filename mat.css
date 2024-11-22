@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: relative;
+    animation: move 3s ease-in-out infinite;
+}
+
+@keyframes move {
+    0% {
+        left: 0;
+    }
+    15% {
+         right: 300px;
+    }
+    10% {
+        right: 0;
+    }
+}
+
+
+

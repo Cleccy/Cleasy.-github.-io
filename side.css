@@ -1,0 +1,36 @@
+.dropdown{
+  display: box;
+}
+.dropdown button{
+  background-color: hsl(0, 0%, 80%);
+  color: black;
+  padding: 10px 15px;
+  border: 1;
+  cursor: pointer;
+}
+
+.dropdown a{
+  display: box;
+  color: black;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+ .dropdown .content {
+   display: none;
+   position: absolute;
+   background-color:skyblue;
+   min-width: 95px;
+   box-shadow: 2px 2px 5px black;
+   
+ }
+.dropdown:hover .content {
+  display: inline-block;
+}
+
+.dropdown:hover .button{
+  background-color: skyblue;
+}
+
+.dropdown a:hover{
+  background-color: hsl(0, 0%, 90%);
+}

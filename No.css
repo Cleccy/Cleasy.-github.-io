@@ -1,0 +1,9 @@
+.border-example {
+    width: 400px;
+    height: 380px;
+    border: 20px solid skyblue;
+    border-image-slice: 30;  
+    border-image-repeat: s;   
+    padding: 10px;
+    margin: auto;
+}
